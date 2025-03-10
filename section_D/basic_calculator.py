@@ -28,7 +28,7 @@ elif operation == 3:
     print("Product: {}" .format(product))
 elif operation == 4:
     if num2 != 0:
-        modulus = multiply(num1, num2)
+        modulus = divide(num1, num2)
         print("Modulus: {}" .format(modulus))
     else:
         print("No division by Zero")
